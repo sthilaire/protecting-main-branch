@@ -19,7 +19,7 @@ git host's server-side branch protection (GitHub/GitLab settings).
 Clone this repo, then run its script from inside the project you want to protect:
 
 ```bash
-git clone https://github.com/<you>/protecting-main-branch.git /tmp/protecting-main-branch
+git clone https://github.com/sthilaire/protecting-main-branch.git /tmp/protecting-main-branch
 /tmp/protecting-main-branch/scripts/setup-branch-protection.sh
 ```
 
@@ -67,7 +67,7 @@ This repo doubles as a [Claude Code](https://claude.com/claude-code) skill.
 Clone it directly into your skills directory and Claude will pick it up:
 
 ```bash
-git clone https://github.com/<you>/protecting-main-branch.git ~/.claude/skills/protecting-main-branch
+git clone https://github.com/sthilaire/protecting-main-branch.git ~/.claude/skills/protecting-main-branch
 ```
 
 Claude will then reach for it whenever you ask to protect `main`, block
