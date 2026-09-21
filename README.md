@@ -1,5 +1,7 @@
 # protecting-main-branch
 
+Source: https://github.com/sthilaire/protecting-main-branch
+
 Stop accidental commits and pushes straight to `main` — two small, independent
 layers you can drop into any git repo in one command.
 
